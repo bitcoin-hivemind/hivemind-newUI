@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="truthcoin">resources/truthcoin.png</file>
+        <file alias="qrcode">resources/cryptaxeqr.png</file>
+        <file alias="bitcoin">resources/bitcoin.png</file>
+        <file>resources/add.png</file>
+        <file>resources/book.png</file>
+        <file>resources/check.png</file>
+        <file>resources/create.png</file>
+        <file>resources/home.png</file>
+        <file>resources/law.png</file>
+        <file>resources/left.png</file>
+        <file>resources/market.png</file>
+        <file>resources/right.png</file>
+        <file>resources/swap.png</file>
+        <file>resources/thumb-up.png</file>
+    </qresource>
+</RCC>

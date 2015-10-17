@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AuthorWidget</class>
+ <widget class="QWidget" name="AuthorWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1036</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>New Combo (Decision and Market)</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="pushButton_newCombo">
+         <property name="text">
+          <string>Create Decision and Market</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>250</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>64</number>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>ID
+
+Hash of all data fields</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>PrivHash
+
+Hash of all non-Public data fields</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Branch
+
+ID of this Decision's Branch</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>TauFromNow
+
+The earliest Intervote Period by which the prompt information will have become widely availiable</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Standard
+
+Is this Decision Standard?</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Scaled
+
+Scaled Decision? FALSE implies a binary Decision</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Prompt
+
+Human redable question for Voters</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Min
+
+Minimum for a scaled Decision</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Max
+
+Maximum for a scaled Decision</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>New Row</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Trading Fee</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>TX Comission</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Owner Address</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Hash Function</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Difficulty</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>New Decision &amp; Market 1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Decision &amp; Market 2</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>New Decision(s)</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QPushButton" name="pushButton_newDecision">
+         <property name="text">
+          <string>Create Decision</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <row>
+          <property name="text">
+           <string>New Market 1</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>PrivHash</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Trading Fee</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Max Commission</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Owner Address</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Hash Functions</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Difficulty</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Dimensions</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Title</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Description</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tags</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Decisions</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Functions</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>New Market(s)</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QPushButton" name="pushButton_newMarket">
+         <property name="text">
+          <string>Create Market</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <row>
+          <property name="text">
+           <string>New Decision/Market 1</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>PrivHash</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Trading Fee</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TX Comission</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Owner Address</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Hash Function</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Difficulty</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Info Display Area</string>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Fees: 0</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Total: 0.00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Finalize</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/resources/check.png</normaloff>:/icons/resources/check.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>24</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
