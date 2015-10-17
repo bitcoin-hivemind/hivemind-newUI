@@ -10,12 +10,12 @@ are made, the existing widget and class names will be used when applicable.
 
 Building
 ---------------------------
-Option 1: Open project with Qt Creator and build & run the project
+    Option 1: Open project with Qt Creator and build & run the project
 
-Option 2: From terminal:
-qmake Hivemind-Qt.pro
-make
-sudo make install (optional)
+    Option 2: From terminal:
+    qmake Hivemind-Qt.pro
+    make
+    sudo make install (optional)
 
 Screen Shots (KDE)
 ---------------------------
