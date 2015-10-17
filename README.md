@@ -16,6 +16,3 @@ Building
     qmake Hivemind-Qt.pro
     make
     sudo make install (optional)
-
-Screen Shots (KDE)
----------------------------
